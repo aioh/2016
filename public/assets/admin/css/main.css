@@ -1,0 +1,123 @@
+.error{
+    color: red;
+}
+.full-width{
+    max-width: 100%;
+}
+.martop{
+    margin-top: 20px;
+}
+.preview{
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 20px;    
+}
+.preview .martop:first-child{
+    margin-top: 0px;
+}
+textarea{
+    resize:none;
+}
+.image-del{
+    cursor: pointer;
+}
+.show-image img{
+    max-height: 120px;
+}
+.show-image .martop{
+    margin-top: 5px;
+}
+.show-image{
+    height: 150px;
+    overflow: hidden;
+    opacity: 0.6;
+}
+.show-image:hover{
+    opacity: 1;
+}
+.marbottom{
+    margin-bottom: 10px;
+}
+.ui-sortable{
+    padding-left: 0;
+}
+.inline-control{
+    display: inline-block;
+}
+.bootstrap-tagsinput{
+    width: 100%;
+}
+.delete{
+    cursor: pointer;
+}
+.nav-tabs > li > a{
+    color: #999;
+}
+#datatable-table a{
+    color: #999;
+    cursor: pointer;
+}
+#datatable-table a:hover{
+    color: #333;
+}
+#datatable-table_previous:hover{
+    color:#999;
+}
+.dataTables_paginate a{
+    color:#333;
+    cursor: pointer;
+    padding: 3px;
+}
+
+/* Languages */
+.languages {
+    margin            : 6px 20px 6px -40px;
+    -webkit-transition: margin-top 0.2s ease;
+    -o-transition     : margin-top 0.2s ease;
+    transition        : margin-top 0.2s ease;
+    text-transform    : uppercase;
+}
+.languages .alert {
+    background           : rgba(255, 255, 255, 0.5);
+    border               : none;
+    font-size            : 12px;
+    line-height          : 19px;
+    margin-bottom        : 0;
+    padding              : 3px 9px;
+    color                : #666666;
+    text-shadow          : none;
+    -moz-border-radius   : 10px;
+    -webkit-border-radius: 10px;
+    border-radius        : 10px;
+}
+.languages .alert a {
+    color: #666666;
+    font-weight: bold;
+    border-right: 1px solid #999;
+    padding: 2px 5px;
+}
+.languages .alert a:hover{
+    text-decoration: none;
+}
+.languages .alert a+a{
+    border-right: 0;
+}
+#menu label{
+    text-transform: capitalize;
+}
+a:hover{
+    text-decoration: none;
+}
+a:hover .weight-normal{
+    text-decoration: none;
+    color: #666;
+}
+a .weight-normal{
+    color: #333;
+}
+#order .list-group-item{
+    cursor: pointer;
+}
+i.glyphicon-plus{
+    cursor: pointer;
+}
